@@ -1,0 +1,6 @@
+jetty:
+  connector:
+    port: 7777
+
+jersey:
+  urlPattern: /watchman
