@@ -36,7 +36,7 @@ public class RegisterCommand extends CommandWithMetadata {
 
     public CommandOutcome run(Cli cli) {
         try {
-            return register(cli.optionString(InstanceApp.HOST));
+            return register(cli.optionString(InstanceModule.HOST));
         } catch (Exception e) {
             return CommandOutcome.failed(1, e);
         }
