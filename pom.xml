@@ -11,7 +11,7 @@
 
     <modules>
         <module>watchman</module>
-        <module>listener</module>
+        <module>instance</module>
     </modules>
 
     <properties>

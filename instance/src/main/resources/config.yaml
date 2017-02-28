@@ -1,0 +1,5 @@
+jerseyclient:
+  readTimeoutMs: 2000
+  connectTimeoutMs: 2000
+instance:
+  name: puppet
